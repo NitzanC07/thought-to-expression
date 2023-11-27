@@ -1,0 +1,57 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+}
+
+.headerLevel {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.titleLevel {
+    font-size: 22px;
+    line-height: 24px;
+    margin: 10px 20px;
+    padding: 0;
+}
+
+.textBeforeExercise {
+    font-size: 22px;
+    line-height: 24px;
+    margin: auto 0;
+    padding: 0;
+}
+
+.text {
+    font-size: 22px;
+    line-height: 24px;
+    margin: 15px 0 50px;
+    padding: 0;
+}
+.exercise {
+    margin: 0;
+    padding: 10px 20px;
+    // background-color: #ccc;
+    border: 1px solid #000;
+    width: 70%;
+}
+
+.userTypingField {
+    width: 400px;
+    height: 60px;
+    background-color: #aaa;
+    margin: 0 auto;
+}
+
+.userTyping {
+    font-size: 58px;
+    line-height: 60px;
+    margin: 0 20px;
+    padding: 0;
+    text-align: start;
+}

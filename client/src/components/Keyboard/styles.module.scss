@@ -1,0 +1,74 @@
+.container {
+    display: grid;
+    grid-template-columns: repeat(11, 1fr);
+    gap: 15px;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    background-color: #313131;
+    box-shadow: -5px -5px 10px #999;
+    padding: 10px 0;
+    z-index: 1;
+}
+
+.keyNote {
+    width: 100%;
+    height: 100%;
+    margin: auto;
+    padding: 15px;
+    background-color: #fff;
+    border: 0px solid #000;
+    border-radius: 5px;
+    box-shadow: -4px 4px 3px #999;
+    font-size: 36px;
+    line-height: 38px;
+    cursor: pointer;
+}
+
+.keyNote:hover {
+    background-color: #ffffffcc;
+    box-shadow: 1px 1px 1px #999;
+}
+
+.keynoteIcon {
+    // background-color: #f00;
+    width: 35px;
+    height: 35px;
+    margin: 0;
+    padding: 0;
+}
+
+#keyNoteSelected {
+    background-color: #ff0;
+}
+
+.keyNoteDisable {
+    visibility: hidden;
+}
+
+#keyNoteSpace {
+    grid-row: 4 /5;
+    grid-column: 3 / 10;
+    width: 80%;
+}
+
+#keyNoteBackspace {
+    background-color: #aaf;
+    grid-row: 1 /2;
+    grid-column: 1 / 2;
+}
+
+#keyNoteEnter {
+    background-color: #aaf;
+    grid-row: 2 / 4;
+    grid-column: 1 / 2;
+    height: 100%;
+    color: #000;
+}
+
+#keyLang {
+    grid-row: 4 / 5;
+    grid-column: 11 / 12;
+    background-color: #777;
+    color: #ccc;
+}

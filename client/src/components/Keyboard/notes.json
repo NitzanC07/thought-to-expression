@@ -1,0 +1,122 @@
+[
+    {
+        "value": ["פ", "p", "P", "0"],
+        "noteId": "keyNote1"
+    },
+    {
+        "value": ["ם", "o", "O", "9"],
+        "noteId": "keyNote2"
+    },
+    {
+        "value": ["ן", "i", "I", "8"],
+        "noteId": "keyNote3"
+    },
+    {
+        "value": ["ו", "u", "U", "7"],
+        "noteId": "keyNote4"
+    },
+    {
+        "value": ["ט", "y", "Y", "6"],
+        "noteId": "keyNote5"
+    },
+    {
+        "value": ["א", "t", "T", "5"],
+        "noteId": "keyNote6"
+    },
+    {
+        "value": ["ר", "r", "R", "4"],
+        "noteId": "keyNote7"
+    },
+    {
+        "value": ["ק", "e", "E", "3"],
+        "noteId": "keyNote8"
+    },
+    {
+        "value": [",", "w", "W", "2"],
+        "noteId": "keyNote9"
+    },
+    {
+        "value": ["?", "q", "Q", "1"],
+        "noteId": "keyNote10"
+    },
+    {
+        "value": ["ף", ",", ",", "+"],
+        "noteId": "keyNote11"
+    },
+    {
+        "value": ["ך", "l", "L", "-"],
+        "noteId": "keyNote12"
+    },
+    {
+        "value": ["ל", "k", "K", "*"],
+        "noteId": "keyNote13"
+    },
+    {
+        "value": ["ח", "j", "J", "/"],
+        "noteId": "keyNote14"
+    },
+    {
+        "value": ["י", "h", "H", "="],
+        "noteId": "keyNote15"
+    },
+    {
+        "value": ["ע", "g", "G", "("],
+        "noteId": "keyNote16"
+    },
+    {
+        "value": ["כ", "f", "F", ")"],
+        "noteId": "keyNote17"
+    },
+    {
+        "value": ["ג", "d", "D", "<"],
+        "noteId": "keyNote18"
+    },
+    {
+        "value": ["ד", "s", "S", ">"],
+        "noteId": "keyNote19"
+    },
+    {
+        "value": ["ש", "a" , "A", "%"],
+        "noteId": "keyNote20"
+    },
+    {
+        "value": [".", ".", ".", "?"],
+        "noteId": "keyNote21"
+    },
+    {
+        "value": ["ץ", "m", "M", "!"],
+        "noteId": "keyNote22"
+    },
+    {
+        "value": ["ת", "n", "N", ":"],
+        "noteId": "keyNote23"
+    },
+    {
+        "value": ["צ", "b", "B", ";"],
+        "noteId": "keyNote24"
+    },
+    {
+        "value": ["מ", "v", "V", "@"],
+        "noteId": "keyNote25"
+    },
+    {
+        "value": ["נ", "c", "C", "$"],
+        "noteId": "keyNote26"
+    },
+    {
+        "value": ["ה", "x", "X", "'"],
+        "noteId": "keyNote27"
+    },
+    {
+        "value": ["ב", "z", "Z", "\""],
+        "noteId": "keyNote28"
+    },
+    {
+        "value": ["ס", "?", "?", "`"],
+        "noteId": "keyNote29"
+    },
+    {
+        "value": ["ז", "!", "!", "~"],
+        "noteId": "keyNote30"
+    }
+]

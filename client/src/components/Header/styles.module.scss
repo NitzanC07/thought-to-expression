@@ -1,0 +1,67 @@
+.container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 15px;
+    background-color: #000;
+}
+
+
+
+.logoAndNav {
+    display: flex;
+    align-items: center;
+}
+
+.navBtn {
+    border: 0;
+    background-color: transparent;
+    padding: 0;
+    margin: 0;
+    cursor: pointer;
+}
+
+.logo {
+    display: flex;
+    flex-direction: column;
+    height: 40px;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 0 0 20px;
+}
+
+.title {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 22px;
+    line-height: 24px;
+    margin: 0;
+    color: #fff;
+}
+
+.titleLink {
+    text-decoration: none;
+    color: #fff;
+}
+
+.slogen {
+    margin: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 12px;
+    line-height: 20px;
+    color: #fff;
+    letter-spacing: 3px;
+}
+
+.menuIcon {
+    width: 24px;
+    height: 24px;
+    margin: 0 0 0 20px;
+}
+
+.date {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 17px;
+    line-height: 18px;
+    color: #fff;
+}
