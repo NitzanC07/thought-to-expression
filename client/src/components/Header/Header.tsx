@@ -29,7 +29,7 @@ export default function Header() {
         </button>
         <div className={styles.logo}>
           <Link className={styles.titleLink} href='/'>
-            <h1 className={styles.title}>ExpressUs</h1>
+            <h1 className={styles.title}>ממחשבה להבעה</h1>
             <p className={styles.slogen}>מקליד את דעתי</p>
           </Link>
         </div>

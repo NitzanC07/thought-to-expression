@@ -7,8 +7,8 @@ import Header from '@/components/Header/Header';
 const inter = Inter({ subsets: ['latin'] })
 
 export const metadata: Metadata = {
-  title: 'WeTalk | מקליד את דעתי',
-  description: 'WeTalk - מקליד את דעתי',
+  title: 'ממחשבה להבעה',
+  description: 'ממחשבה להבעה - אפליקצייה להבעה באמצעות הקלדה עבור אנשים עם לקות תקשורתית.',
 }
 
 export default function RootLayout({
