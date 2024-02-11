@@ -12,6 +12,7 @@
 .title {
     margin: 10px 15px;
     padding: 0;
+    font-family: 'Varela Round', Arial, Helvetica, sans-serif;
 }
 
 .speakersList {
@@ -37,6 +38,7 @@
     border: 0;
     border-radius: 8px;
     box-shadow: 3px 3px 5px #888;
+    font-family: 'Varela Round', Arial, Helvetica, sans-serif;
     cursor: pointer;
 }
 
@@ -72,6 +74,7 @@
 .tagAddPerson {
     margin: 0 7px 0 0;
     padding: 2px 5px;
+    font-family: 'Varela Round', Arial, Helvetica, sans-serif;
     font-size: 14px;
     line-height: 16px;
     background-color: #aaa;
@@ -87,17 +90,20 @@
 }
 
 .addSpeakerInput {
-    background-color: transparent;
+    background-color: rgba(248, 255, 144, 0);
     border: 0;
-    border-bottom: 1px solid black;
+    border-bottom: 2px solid rgb(135, 145, 2);
     margin: 0 5px;
     width: 50%;
+    font-family: 'Varela Round', Arial, Helvetica, sans-serif;
     outline: none;
 }
 
 .addSpeakerInput:focus {
     background-color: #ffffffaa;
     border-bottom: 2px solid black;
+    background-color: rgba(248, 255, 144, 0.667);
+    border-bottom: 3px solid rgb(135, 145, 2);
 }
 
 .addSpeakerSubmit {
@@ -107,8 +113,11 @@
     border-radius: 5px;
     border: 0;
     box-shadow: 2px 2px 4px #444;
+    font-family: 'Varela Round', Arial, Helvetica, sans-serif;
     font-size: 12px;
     line-height: 14px;
+    background-color: rgb(135, 145, 2);
+    color: rgba(248, 255, 144, 1);
     cursor: pointer;
 }
 

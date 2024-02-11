@@ -26,31 +26,36 @@
 .speakerName {
     margin: 0 15px 0 0;
     min-width: 100px;
+    font-family: 'Varela Round', Arial, Helvetica, sans-serif;
 }
 
 .messageInput {
     background-color: transparent;
     border: 0;
-    border-bottom: 1px solid black;
+    border-bottom: 2px solid rgb(135, 145, 2);
     margin: 0 5px;
     width: 100%;
     outline: none;
+    font-family: 'Varela Round', Arial, Helvetica, sans-serif;
     font-size: 20px;
     line-height: 22px;
 }
 
 .messageInput:focus {
-    background-color: #ffffffaa;
-    border-bottom: 2px solid black;
+    background-color: rgba(248, 255, 144, 0.667);
+    border-bottom: 3px solid rgb(135, 145, 2);
 }
 
 .sendMessageBtn {
     width: 180px;
     height: 35px;
     margin: 0 auto;
-    border-radius: 5px;
+    background-color: rgb(135, 145, 2);
+    color: rgba(248, 255, 144, 1);
     border: 0;
+    border-radius: 5px;
     box-shadow: 2px 2px 4px #444;
+    font-family: 'Varela Round', Arial, Helvetica, sans-serif;
     font-size: 18px;
     line-height: 20px;
     cursor: pointer;
