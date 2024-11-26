@@ -1,3 +1,6 @@
+@keyframes navBarAnimation {
+    
+}
 .navBar {
     margin: 0;
     padding: 20px 10px;
@@ -11,6 +14,7 @@
     position: absolute;
         top: 60px;
         right: 0;
+    transition: 2s;
 }
 
 .link {
