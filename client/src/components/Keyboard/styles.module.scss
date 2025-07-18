@@ -19,11 +19,12 @@
     background-color: #fff;
     border: 0px solid #000;
     border-radius: 5px;
-    box-shadow: -4px 4px 3px #999;
+    box-shadow: 5px 5px 7px #999;
     font-family: 'Varela Round', Arial, Helvetica, sans-serif;
     font-size: 36px;
     line-height: 38px;
     cursor: pointer;
+    transition: 0.7s;
 }
 
 .keyNote:hover {
@@ -32,7 +33,6 @@
 }
 
 .keynoteIcon {
-    // background-color: #f00;
     width: 35px;
     height: 35px;
     margin: 0;
@@ -40,7 +40,7 @@
 }
 
 #keyNoteSelected {
-    background-color: #ff0;
+    background-color: #F6F7C4;
 }
 
 .keyNoteDisable {
@@ -54,13 +54,13 @@
 }
 
 #keyNoteBackspace {
-    background-color: #aaf;
+    background-color: var(--secondary-color);
     grid-row: 1 /2;
     grid-column: 1 / 2;
 }
 
 #keyNoteEnter {
-    background-color: #aaf;
+    background-color: var(--secondary-color);
     grid-row: 2 / 4;
     grid-column: 1 / 2;
     height: 100%;

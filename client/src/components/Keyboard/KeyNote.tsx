@@ -68,7 +68,7 @@ export default function KeyNote(props: NoteProps) {
                 props.word && props.isStartExercise && clickedCounter === 2 && !props.word.includes(props.value) ? {'backgroundColor' : '#ffffff66', 'color': '#777', 'boxShadow': '-2px 2px 5px #777'} : 
                 props.word && props.isStartExercise && clickedCounter === 3 && !props.word.includes(props.value) ? {'backgroundColor' : '#ffffff33', 'color': '#666', 'boxShadow': '-1px 1px 5px #555'} : 
                 props.word && props.isStartExercise && clickedCounter === 4 && !props.word.includes(props.value) ? {'visibility' : 'hidden'} : 
-                props.word && props.level === 3 && props.isStartExercise &&  props.word.includes(props.value) ? {'backgroundColor' : '#ff0', 'color': '#000'} : 
+                props.word && props.level === 3 && props.isStartExercise &&  props.word.includes(props.value) ? {'backgroundColor' : 'yellow', 'color': '#000'} : 
                 {'backgroundColor' : '#fff', 'color': '#555'}
             }
         >

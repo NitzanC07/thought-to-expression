@@ -1,3 +1,12 @@
+:root {
+  --primary-color: #638889; /* A warm, inviting orange-yellow */
+  --secondary-color: #9DBC98; /* A soft, calming green */
+  --secondary-color-hover: #9DBC9888; /* A soft, calming green */
+  --accent-color: #EBD9B488; /* A bright, engaging blue */
+  --accent-color-hover: #EBD9B4; /* A bright, engaging blue */
+  --background-color: #F9EFDB; /* A neutral, creamy white */
+}
+
 html,
 body {
   direction: rtl;
