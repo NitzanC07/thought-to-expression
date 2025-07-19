@@ -14,6 +14,7 @@
     justify-content: space-between;
     width: 90%;
     margin: 0;
+    font-family: var(--primary-font);
 }
 
 .notebookContainer {
@@ -24,6 +25,7 @@
     height: 100%;
     margin: 0;
     padding: 0;
+    background-color: var(--primary-color);
 }
 
 .notebook {
@@ -40,13 +42,18 @@
         rgb(255, 249, 230) 24px,
         rgba(0, 0, 150, 0.3) 26px
         );
-    font-family: 'Rubik' , 'Yehuda', 'Gveret-levin', Arial;
+    font-family: var(--primary-font);
     font-size: 24px;
     line-height: 26px;
     word-spacing: 4px;
     resize: none;
     outline: 6px solid rgb(255, 249, 230);
-    box-shadow: 5px -5px 15px #777;
+    box-shadow: 0px 0px 20px var(--secondary-color);
+    transition: 0.7s;
+}
+
+.notebook:hover {
+    box-shadow: 0px 0px 50px var(--secondary-color);
 }
 
 .notebookNavigate {

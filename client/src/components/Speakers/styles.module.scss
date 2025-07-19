@@ -12,7 +12,7 @@
 .title {
     margin: 10px 15px;
     padding: 0;
-    font-family: 'Varela Round', Arial, Helvetica, sans-serif;
+    font-family: var(--primary-font);
 }
 
 .speakersList {
@@ -34,16 +34,17 @@
     height: 40px;
     font-size: 22px;
     line-height: 24px;
-    background-color: #00000033;
+    background-color: var(--secondary-color);
     border: 0;
     border-radius: 8px;
     box-shadow: 3px 3px 5px #888;
-    font-family: 'Varela Round', Arial, Helvetica, sans-serif;
+    font-family: var(--primary-font);
     cursor: pointer;
+    transition: 0.7s;
 }
 
 .speakerBtn:hover {
-    box-shadow: 1px 1px 3px #888;
+    box-shadow: 1px 1px 5px #888;
 }
 
 .addSpeakerContainer {
@@ -63,9 +64,24 @@
     border-radius: 50%;
     border: 0;
     box-shadow: 3px 3px 5px #444;
-    background-color: #fff;
+    background-color: var(--secondary-color);
     cursor: pointer;
 }
+
+.addSpeakerBtnDisabled {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 42px;
+    height: 42px;
+    margin: 0px;
+    border-radius: 50%;
+    border: 0;
+    box-shadow: 0;
+    background-color: #99999955;
+    cursor: pointer;
+}
+
 
 .addSpeakerBtn:hover {
     box-shadow: 1px 1px 3px #888;
@@ -74,10 +90,10 @@
 .tagAddPerson {
     margin: 0 7px 0 0;
     padding: 2px 5px;
-    font-family: 'Varela Round', Arial, Helvetica, sans-serif;
+    font-family: var(--primary-font);
     font-size: 14px;
     line-height: 16px;
-    background-color: #aaa;
+    background-color: #99999955;
     color: #000;
     border-radius: 8px;
 }
@@ -90,9 +106,9 @@
 }
 
 .addSpeakerInput {
-    background-color: rgba(248, 255, 144, 0);
+    background-color: transparent;
     border: 0;
-    border-bottom: 2px solid rgb(135, 145, 2);
+    border-bottom: 2px solid var(--primary-color);
     margin: 0 5px;
     width: 50%;
     font-family: 'Varela Round', Arial, Helvetica, sans-serif;
@@ -100,10 +116,7 @@
 }
 
 .addSpeakerInput:focus {
-    background-color: #ffffffaa;
-    border-bottom: 2px solid black;
-    background-color: rgba(248, 255, 144, 0.667);
-    border-bottom: 3px solid rgb(135, 145, 2);
+    border-bottom: 2px solid var(--secondary-color);
 }
 
 .addSpeakerSubmit {
@@ -116,8 +129,8 @@
     font-family: 'Varela Round', Arial, Helvetica, sans-serif;
     font-size: 12px;
     line-height: 14px;
-    background-color: rgb(135, 145, 2);
-    color: rgba(248, 255, 144, 1);
+    background-color: var(--primary-color);
+    color: rgba(255, 255, 255, 1);
     cursor: pointer;
 }
 

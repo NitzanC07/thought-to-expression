@@ -6,7 +6,7 @@ interface Props {
 }
 
 function MessagesList({ conversation }: Props) {
-  // const conversation: Conversation[] = conversationData.conversation;
+  const conversationReversed = conversation.reverse();
 
   return (
     <div className={styles.messagesBox}>

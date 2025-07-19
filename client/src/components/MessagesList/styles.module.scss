@@ -22,11 +22,13 @@
     grid-template-columns: 1fr 7fr;
     margin: 0 5px 8px;
     border-radius: 5px;
-    background-color: #00000011;
+    background-color: #00000009;
+    transition: 0.7s;
 }
 
 .messageContainer:hover {
-    background-color: #ddd;
+    background-color: #00000007;
+    box-shadow: 2px 2px 5px #999;
 }
 
 .messageSpeaker {
@@ -36,9 +38,11 @@
     font-size: 18px;
     line-height: 22px;
     min-width: 80px;
+    font-family: var(--primary-font);
 }
 
 .messageText {
+    font-family: var(--primary-font);
     grid-column: 2 / 3;
     width: 100%;
     margin: 0;

@@ -11,10 +11,10 @@ interface Props {
 export default function ChatBox({conversation}: Props) {
     
     const shareConversation = () => {
-        console.log(conversation);
-        
+        console.log(conversation);        
     }
-
+    
+    console.log("conversation");        
     return (
     <section className={styles.container}>
         <div className={styles.titleContainer}>

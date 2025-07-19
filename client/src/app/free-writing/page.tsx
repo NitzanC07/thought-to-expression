@@ -26,7 +26,7 @@ export default function FreeWritingPage() {
   return (
     <section className={styles.container}>
       <div className={styles.head}>
-        <h2>כתיבה חופשית</h2>
+        <h2 className={styles.title}>כתיבה חופשית</h2>
         <div className={styles.notebookNavigate}>
           <Link className={styles.link} href='/notebooks'>
             <CircleButton icon={noteIcon} description='מחברות' />

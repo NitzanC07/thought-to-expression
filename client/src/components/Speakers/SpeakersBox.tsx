@@ -78,11 +78,10 @@ export default function SpeakersBox({speakers, setSpeakers}: Props ) {
         onSubmit={createNewSpeaker}
       >
         <button 
-          className={styles.addSpeakerBtn}
+          className={speakers.length < 4 ? styles.addSpeakerBtn : styles.addSpeakerBtnDisabled}
           type='button'
           onClick={addSpeakerOpen}
           disabled={speakers.length < 4 ? false : true}
-          style={speakers.length >=4 ? {'backgroundColor': '#aaa'} : {'backgroundColor': '#fff'}}
         >
           <Image className={styles.addPersonIcon} src={addPerson} alt='Add speaker' />
         </button> 

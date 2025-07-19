@@ -5,6 +5,7 @@
     height: 100%;
     position: relative;
     background-color: var(--background-color);
+    font-family: var(--primary-font);
 }
 
 .content {
@@ -86,6 +87,7 @@
     border: 0;
     background-color: transparent;
     color: #000;
+    font-family: var(--primary-font);
     font-size: 18px;
     line-height: 20px;
 }

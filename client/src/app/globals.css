@@ -5,6 +5,7 @@
   --accent-color: #EBD9B488; /* A bright, engaging blue */
   --accent-color-hover: #EBD9B4; /* A bright, engaging blue */
   --background-color: #F9EFDB; /* A neutral, creamy white */
+  --primary-font: 'Varela Round', Arial, Helvetica, sans-serif;  
 }
 
 html,
@@ -18,7 +19,7 @@ body {
   margin: 0;
   padding: 0;
   overflow-x: hidden;
-  background-color: #eee;
+  background-color: var(--background-color);
   color: #444;
 }
 
@@ -31,5 +32,5 @@ body {
   flex-direction: column;
   justify-content: space-between;
   align-items: center;
-  background-color: #ddd;
+  background-color: var(--background-color);
 }
