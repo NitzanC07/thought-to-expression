@@ -1,6 +1,7 @@
 'use client';
 import { useState, useEffect } from 'react';
 import styles from './styles.module.scss';
+import KeyNoteStyles from './KeyNote.module.scss';
 
 interface NoteProps {
     level: number;
@@ -13,11 +14,10 @@ interface NoteProps {
     word: string;
 }
 export default function KeyNote(props: NoteProps) {
-    const { keyNote } = styles;
-    
+
+    const levelClass = `level${props.level}`
     const noteId = props.noteId;
     const [clickedCounter, setClickedCounter] = useState(0);
-    const [otherLetters, setOtherLetters] = useState([]);
 
     const typeValue = () => {
         if (props.word && props.word.includes(props.value)) {
@@ -58,19 +58,19 @@ export default function KeyNote(props: NoteProps) {
 
     return (
         <button 
-            className={`${keyNote}`} 
+            className={`${KeyNoteStyles.keyNote} ${props.word && props.isStartExercise && !props.word.includes(props.value) ? `${KeyNoteStyles[levelClass]}` : ''}`} 
             id={noteId}
             value={props.value}
             onClick={typeValue}
-            style={
-                props.word && props.level <= 2 && props.isStartExercise && !props.word.includes(props.value) ? {'visibility' : 'hidden'} : 
-                props.word && props.isStartExercise && clickedCounter === 1 && !props.word.includes(props.value) ? {'backgroundColor' : '#ffffff99', 'color': '#888', 'boxShadow': '-3px 3px 5px #999'} : 
-                props.word && props.isStartExercise && clickedCounter === 2 && !props.word.includes(props.value) ? {'backgroundColor' : '#ffffff66', 'color': '#777', 'boxShadow': '-2px 2px 5px #777'} : 
-                props.word && props.isStartExercise && clickedCounter === 3 && !props.word.includes(props.value) ? {'backgroundColor' : '#ffffff33', 'color': '#666', 'boxShadow': '-1px 1px 5px #555'} : 
-                props.word && props.isStartExercise && clickedCounter === 4 && !props.word.includes(props.value) ? {'visibility' : 'hidden'} : 
-                props.word && props.level === 3 && props.isStartExercise &&  props.word.includes(props.value) ? {'backgroundColor' : 'yellow', 'color': '#000'} : 
-                {'backgroundColor' : '#fff', 'color': '#555'}
-            }
+            // style={
+            //     props.word && props.level <= 2 && props.isStartExercise && !props.word.includes(props.value) ? {'visibility' : 'hidden'} : 
+            //     props.word && props.isStartExercise && clickedCounter === 1 && !props.word.includes(props.value) ? {'backgroundColor' : '#fff9', 'color': '#888', 'boxShadow': '1px 1px 3px #999'} : 
+            //     props.word && props.isStartExercise && clickedCounter === 2 && !props.word.includes(props.value) ? {'backgroundColor' : '#fff6', 'color': '#777', 'boxShadow': '1px 1px 2px #777'} : 
+            //     props.word && props.isStartExercise && clickedCounter === 3 && !props.word.includes(props.value) ? {'backgroundColor' : '#fff1', 'color': '#666', 'boxShadow': '1px 1px 1px #555'} : 
+            //     props.word && props.isStartExercise && clickedCounter === 4 && !props.word.includes(props.value) ? {'visibility' : 'hidden'} : 
+            //     props.word && props.level === 3 && props.isStartExercise &&  props.word.includes(props.value) ? {'backgroundColor' : 'yellow', 'color': '#000'} : 
+            //     {'backgroundColor' : '#fff', 'color': '#000'}
+            // }
         >
             {props.value}
         </button>
