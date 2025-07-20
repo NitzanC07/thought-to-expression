@@ -58,7 +58,7 @@ export default function KeyNote(props: NoteProps) {
 
     return (
         <button 
-            className={`${KeyNoteStyles.keyNote} ${props.word && props.isStartExercise && !props.word.includes(props.value) ? `${KeyNoteStyles[levelClass]}` : ''}`} 
+            className={`${KeyNoteStyles.keyNote} ${props.word && props.isStartExercise && props.level <= 2 && !props.word.includes(props.value) ? `${KeyNoteStyles[levelClass]}` : props.word && props.isStartExercise && props.level >= 3 && props.word.includes(props.value) ? `${KeyNoteStyles[levelClass]}` : ''}`} 
             id={noteId}
             value={props.value}
             onClick={typeValue}
